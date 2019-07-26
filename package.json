@@ -1,0 +1,24 @@
+{
+  "name": "zombie-espace",
+  "version": "1.0.0",
+  "description": "Jeu Zombie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"browser-sync start --server jeu  --files 'jeu/**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahrochefort/zombie-espace.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahrochefort/zombie-espace/issues"
+  },
+  "homepage": "https://github.com/ahrochefort/zombie-espace#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
